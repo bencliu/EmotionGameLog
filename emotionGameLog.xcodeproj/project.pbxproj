@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1163B8C124816FD4006A4278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8C024816FD4006A4278 /* AppDelegate.swift */; };
+		1163B8C324816FD4006A4278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8C224816FD4006A4278 /* SceneDelegate.swift */; };
+		1163B8C624816FD4006A4278 /* emotionGameLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8C424816FD4006A4278 /* emotionGameLog.xcdatamodeld */; };
+		1163B8C824816FD4006A4278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8C724816FD4006A4278 /* ContentView.swift */; };
+		1163B8CA24816FD7006A4278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1163B8C924816FD7006A4278 /* Assets.xcassets */; };
+		1163B8CD24816FD7006A4278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1163B8CC24816FD7006A4278 /* Preview Assets.xcassets */; };
+		1163B8D024816FD7006A4278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1163B8CE24816FD7006A4278 /* LaunchScreen.storyboard */; };
+		1163B8DB24816FD7006A4278 /* emotionGameLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8DA24816FD7006A4278 /* emotionGameLogTests.swift */; };
+		1163B8E624816FD8006A4278 /* emotionGameLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8E524816FD8006A4278 /* emotionGameLogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1163B8D724816FD7006A4278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1163B8B524816FD4006A4278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1163B8BC24816FD4006A4278;
+			remoteInfo = emotionGameLog;
+		};
+		1163B8E224816FD8006A4278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1163B8B524816FD4006A4278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1163B8BC24816FD4006A4278;
+			remoteInfo = emotionGameLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1163B8BD24816FD4006A4278 /* emotionGameLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emotionGameLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1163B8C024816FD4006A4278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1163B8C224816FD4006A4278 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1163B8C524816FD4006A4278 /* emotionGameLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = emotionGameLog.xcdatamodel; sourceTree = "<group>"; };
+		1163B8C724816FD4006A4278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1163B8C924816FD7006A4278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1163B8CC24816FD7006A4278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1163B8CF24816FD7006A4278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1163B8D124816FD7006A4278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1163B8D624816FD7006A4278 /* emotionGameLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emotionGameLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1163B8DA24816FD7006A4278 /* emotionGameLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionGameLogTests.swift; sourceTree = "<group>"; };
+		1163B8DC24816FD7006A4278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1163B8E124816FD8006A4278 /* emotionGameLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emotionGameLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1163B8E524816FD8006A4278 /* emotionGameLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionGameLogUITests.swift; sourceTree = "<group>"; };
+		1163B8E724816FD8006A4278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1163B8BA24816FD4006A4278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1163B8D324816FD7006A4278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1163B8DE24816FD8006A4278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1163B8B424816FD4006A4278 = {
+			isa = PBXGroup;
+			children = (
+				1163B8BF24816FD4006A4278 /* emotionGameLog */,
+				1163B8D924816FD7006A4278 /* emotionGameLogTests */,
+				1163B8E424816FD8006A4278 /* emotionGameLogUITests */,
+				1163B8BE24816FD4006A4278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1163B8BE24816FD4006A4278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1163B8BD24816FD4006A4278 /* emotionGameLog.app */,
+				1163B8D624816FD7006A4278 /* emotionGameLogTests.xctest */,
+				1163B8E124816FD8006A4278 /* emotionGameLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1163B8BF24816FD4006A4278 /* emotionGameLog */ = {
+			isa = PBXGroup;
+			children = (
+				1163B8C024816FD4006A4278 /* AppDelegate.swift */,
+				1163B8C224816FD4006A4278 /* SceneDelegate.swift */,
+				1163B8C724816FD4006A4278 /* ContentView.swift */,
+				1163B8C924816FD7006A4278 /* Assets.xcassets */,
+				1163B8CE24816FD7006A4278 /* LaunchScreen.storyboard */,
+				1163B8D124816FD7006A4278 /* Info.plist */,
+				1163B8C424816FD4006A4278 /* emotionGameLog.xcdatamodeld */,
+				1163B8CB24816FD7006A4278 /* Preview Content */,
+			);
+			path = emotionGameLog;
+			sourceTree = "<group>";
+		};
+		1163B8CB24816FD7006A4278 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1163B8CC24816FD7006A4278 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1163B8D924816FD7006A4278 /* emotionGameLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				1163B8DA24816FD7006A4278 /* emotionGameLogTests.swift */,
+				1163B8DC24816FD7006A4278 /* Info.plist */,
+			);
+			path = emotionGameLogTests;
+			sourceTree = "<group>";
+		};
+		1163B8E424816FD8006A4278 /* emotionGameLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1163B8E524816FD8006A4278 /* emotionGameLogUITests.swift */,
+				1163B8E724816FD8006A4278 /* Info.plist */,
+			);
+			path = emotionGameLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1163B8BC24816FD4006A4278 /* emotionGameLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1163B8EA24816FD8006A4278 /* Build configuration list for PBXNativeTarget "emotionGameLog" */;
+			buildPhases = (
+				1163B8B924816FD4006A4278 /* Sources */,
+				1163B8BA24816FD4006A4278 /* Frameworks */,
+				1163B8BB24816FD4006A4278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emotionGameLog;
+			productName = emotionGameLog;
+			productReference = 1163B8BD24816FD4006A4278 /* emotionGameLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1163B8D524816FD7006A4278 /* emotionGameLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1163B8ED24816FD8006A4278 /* Build configuration list for PBXNativeTarget "emotionGameLogTests" */;
+			buildPhases = (
+				1163B8D224816FD7006A4278 /* Sources */,
+				1163B8D324816FD7006A4278 /* Frameworks */,
+				1163B8D424816FD7006A4278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1163B8D824816FD7006A4278 /* PBXTargetDependency */,
+			);
+			name = emotionGameLogTests;
+			productName = emotionGameLogTests;
+			productReference = 1163B8D624816FD7006A4278 /* emotionGameLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1163B8E024816FD8006A4278 /* emotionGameLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1163B8F024816FD8006A4278 /* Build configuration list for PBXNativeTarget "emotionGameLogUITests" */;
+			buildPhases = (
+				1163B8DD24816FD8006A4278 /* Sources */,
+				1163B8DE24816FD8006A4278 /* Frameworks */,
+				1163B8DF24816FD8006A4278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1163B8E324816FD8006A4278 /* PBXTargetDependency */,
+			);
+			name = emotionGameLogUITests;
+			productName = emotionGameLogUITests;
+			productReference = 1163B8E124816FD8006A4278 /* emotionGameLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1163B8B524816FD4006A4278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Benjamin Liu";
+				TargetAttributes = {
+					1163B8BC24816FD4006A4278 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1163B8D524816FD7006A4278 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1163B8BC24816FD4006A4278;
+					};
+					1163B8E024816FD8006A4278 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1163B8BC24816FD4006A4278;
+					};
+				};
+			};
+			buildConfigurationList = 1163B8B824816FD4006A4278 /* Build configuration list for PBXProject "emotionGameLog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1163B8B424816FD4006A4278;
+			productRefGroup = 1163B8BE24816FD4006A4278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1163B8BC24816FD4006A4278 /* emotionGameLog */,
+				1163B8D524816FD7006A4278 /* emotionGameLogTests */,
+				1163B8E024816FD8006A4278 /* emotionGameLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1163B8BB24816FD4006A4278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1163B8D024816FD7006A4278 /* LaunchScreen.storyboard in Resources */,
+				1163B8CD24816FD7006A4278 /* Preview Assets.xcassets in Resources */,
+				1163B8CA24816FD7006A4278 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1163B8D424816FD7006A4278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1163B8DF24816FD8006A4278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1163B8B924816FD4006A4278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1163B8C124816FD4006A4278 /* AppDelegate.swift in Sources */,
+				1163B8C324816FD4006A4278 /* SceneDelegate.swift in Sources */,
+				1163B8C824816FD4006A4278 /* ContentView.swift in Sources */,
+				1163B8C624816FD4006A4278 /* emotionGameLog.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1163B8D224816FD7006A4278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1163B8DB24816FD7006A4278 /* emotionGameLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1163B8DD24816FD8006A4278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1163B8E624816FD8006A4278 /* emotionGameLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1163B8D824816FD7006A4278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1163B8BC24816FD4006A4278 /* emotionGameLog */;
+			targetProxy = 1163B8D724816FD7006A4278 /* PBXContainerItemProxy */;
+		};
+		1163B8E324816FD8006A4278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1163B8BC24816FD4006A4278 /* emotionGameLog */;
+			targetProxy = 1163B8E224816FD8006A4278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1163B8CE24816FD7006A4278 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1163B8CF24816FD7006A4278 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1163B8E824816FD8006A4278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1163B8E924816FD8006A4278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1163B8EB24816FD8006A4278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"emotionGameLog/Preview Content\"";
+				DEVELOPMENT_TEAM = 9J38MC96ZL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = emotionGameLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bencliu.emotionGameLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1163B8EC24816FD8006A4278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"emotionGameLog/Preview Content\"";
+				DEVELOPMENT_TEAM = 9J38MC96ZL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = emotionGameLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bencliu.emotionGameLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1163B8EE24816FD8006A4278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J38MC96ZL;
+				INFOPLIST_FILE = emotionGameLogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bencliu.emotionGameLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emotionGameLog.app/emotionGameLog";
+			};
+			name = Debug;
+		};
+		1163B8EF24816FD8006A4278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J38MC96ZL;
+				INFOPLIST_FILE = emotionGameLogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bencliu.emotionGameLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emotionGameLog.app/emotionGameLog";
+			};
+			name = Release;
+		};
+		1163B8F124816FD8006A4278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J38MC96ZL;
+				INFOPLIST_FILE = emotionGameLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bencliu.emotionGameLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emotionGameLog;
+			};
+			name = Debug;
+		};
+		1163B8F224816FD8006A4278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J38MC96ZL;
+				INFOPLIST_FILE = emotionGameLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.bencliu.emotionGameLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emotionGameLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1163B8B824816FD4006A4278 /* Build configuration list for PBXProject "emotionGameLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1163B8E824816FD8006A4278 /* Debug */,
+				1163B8E924816FD8006A4278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1163B8EA24816FD8006A4278 /* Build configuration list for PBXNativeTarget "emotionGameLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1163B8EB24816FD8006A4278 /* Debug */,
+				1163B8EC24816FD8006A4278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1163B8ED24816FD8006A4278 /* Build configuration list for PBXNativeTarget "emotionGameLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1163B8EE24816FD8006A4278 /* Debug */,
+				1163B8EF24816FD8006A4278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1163B8F024816FD8006A4278 /* Build configuration list for PBXNativeTarget "emotionGameLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1163B8F124816FD8006A4278 /* Debug */,
+				1163B8F224816FD8006A4278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1163B8C424816FD4006A4278 /* emotionGameLog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1163B8C524816FD4006A4278 /* emotionGameLog.xcdatamodel */,
+			);
+			currentVersion = 1163B8C524816FD4006A4278 /* emotionGameLog.xcdatamodel */;
+			path = emotionGameLog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1163B8B524816FD4006A4278 /* Project object */;
+}
