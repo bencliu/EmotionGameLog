@@ -10,12 +10,32 @@
 		1163B8C124816FD4006A4278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8C024816FD4006A4278 /* AppDelegate.swift */; };
 		1163B8C324816FD4006A4278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8C224816FD4006A4278 /* SceneDelegate.swift */; };
 		1163B8C624816FD4006A4278 /* emotionGameLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8C424816FD4006A4278 /* emotionGameLog.xcdatamodeld */; };
-		1163B8C824816FD4006A4278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8C724816FD4006A4278 /* ContentView.swift */; };
+		1163B8C824816FD4006A4278 /* EmotionGameLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8C724816FD4006A4278 /* EmotionGameLogView.swift */; };
 		1163B8CA24816FD7006A4278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1163B8C924816FD7006A4278 /* Assets.xcassets */; };
 		1163B8CD24816FD7006A4278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1163B8CC24816FD7006A4278 /* Preview Assets.xcassets */; };
 		1163B8D024816FD7006A4278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1163B8CE24816FD7006A4278 /* LaunchScreen.storyboard */; };
 		1163B8DB24816FD7006A4278 /* emotionGameLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8DA24816FD7006A4278 /* emotionGameLogTests.swift */; };
 		1163B8E624816FD8006A4278 /* emotionGameLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8E524816FD8006A4278 /* emotionGameLogUITests.swift */; };
+		1163B8F424817153006A4278 /* DayRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8F324817153006A4278 /* DayRateView.swift */; };
+		1163B8F624817172006A4278 /* GratitudeLoggerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8F524817172006A4278 /* GratitudeLoggerView.swift */; };
+		1163B8F82481719A006A4278 /* GratitudeSummarizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8F72481719A006A4278 /* GratitudeSummarizeView.swift */; };
+		1163B8FC2481737E006A4278 /* EmotionLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8FB2481737E006A4278 /* EmotionLog.swift */; };
+		1163B9002481743F006A4278 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B8FF2481743F006A4278 /* Grid.swift */; };
+		1163B9022481749C006A4278 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B9012481749C006A4278 /* GridLayout.swift */; };
+		1163B90824818102006A4278 /* EmotionGameLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B90724818102006A4278 /* EmotionGameLog.swift */; };
+		1163B90C2482193D006A4278 /* PreferencesEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B90B2482193D006A4278 /* PreferencesEditor.swift */; };
+		1163B91024822386006A4278 /* ChartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163B90F24822386006A4278 /* ChartRateView.swift */; };
+		11A241A2248DBA3700D66341 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A241A1248DBA3700D66341 /* SummaryView.swift */; };
+		11A241A4248DBCE800D66341 /* PopShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A241A3248DBCE800D66341 /* PopShape.swift */; };
+		11A241A6248DCF7000D66341 /* View+SummaryElementModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A241A5248DCF7000D66341 /* View+SummaryElementModifier.swift */; };
+		11A241F02490402E00D66341 /* EmotiGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A241EF2490402E00D66341 /* EmotiGameScene.swift */; };
+		11A241F22490405F00D66341 /* EmotiGameSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A241F12490405F00D66341 /* EmotiGameSceneView.swift */; };
+		11A241F5249052C300D66341 /* Bubble_AudioCut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11A241F4249052C300D66341 /* Bubble_AudioCut.mp3 */; };
+		11A241F72490545400D66341 /* Bell_AudioCut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11A241F62490545400D66341 /* Bell_AudioCut.mp3 */; };
+		11A241F92490A0D800D66341 /* EndCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A241F82490A0D800D66341 /* EndCycleView.swift */; };
+		11A241FC2490B1E500D66341 /* EmotiGameMasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A241FB2490B1E500D66341 /* EmotiGameMasterView.swift */; };
+		11A242002491B75500D66341 /* GameInstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A241FF2491B75500D66341 /* GameInstructionsView.swift */; };
+		11A242022491D03000D66341 /* Animatable+FlyAndFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A242012491D03000D66341 /* Animatable+FlyAndFade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +60,7 @@
 		1163B8C024816FD4006A4278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1163B8C224816FD4006A4278 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1163B8C524816FD4006A4278 /* emotionGameLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = emotionGameLog.xcdatamodel; sourceTree = "<group>"; };
-		1163B8C724816FD4006A4278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1163B8C724816FD4006A4278 /* EmotionGameLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionGameLogView.swift; sourceTree = "<group>"; };
 		1163B8C924816FD7006A4278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1163B8CC24816FD7006A4278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1163B8CF24816FD7006A4278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +71,26 @@
 		1163B8E124816FD8006A4278 /* emotionGameLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emotionGameLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1163B8E524816FD8006A4278 /* emotionGameLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionGameLogUITests.swift; sourceTree = "<group>"; };
 		1163B8E724816FD8006A4278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1163B8F324817153006A4278 /* DayRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRateView.swift; sourceTree = "<group>"; };
+		1163B8F524817172006A4278 /* GratitudeLoggerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeLoggerView.swift; sourceTree = "<group>"; };
+		1163B8F72481719A006A4278 /* GratitudeSummarizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeSummarizeView.swift; sourceTree = "<group>"; };
+		1163B8FB2481737E006A4278 /* EmotionLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionLog.swift; sourceTree = "<group>"; };
+		1163B8FF2481743F006A4278 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		1163B9012481749C006A4278 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		1163B90724818102006A4278 /* EmotionGameLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionGameLog.swift; sourceTree = "<group>"; };
+		1163B90B2482193D006A4278 /* PreferencesEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesEditor.swift; sourceTree = "<group>"; };
+		1163B90F24822386006A4278 /* ChartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRateView.swift; sourceTree = "<group>"; };
+		11A241A1248DBA3700D66341 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		11A241A3248DBCE800D66341 /* PopShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopShape.swift; sourceTree = "<group>"; };
+		11A241A5248DCF7000D66341 /* View+SummaryElementModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SummaryElementModifier.swift"; sourceTree = "<group>"; };
+		11A241EF2490402E00D66341 /* EmotiGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotiGameScene.swift; sourceTree = "<group>"; };
+		11A241F12490405F00D66341 /* EmotiGameSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotiGameSceneView.swift; sourceTree = "<group>"; };
+		11A241F4249052C300D66341 /* Bubble_AudioCut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bubble_AudioCut.mp3; sourceTree = "<group>"; };
+		11A241F62490545400D66341 /* Bell_AudioCut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bell_AudioCut.mp3; sourceTree = "<group>"; };
+		11A241F82490A0D800D66341 /* EndCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndCycleView.swift; sourceTree = "<group>"; };
+		11A241FB2490B1E500D66341 /* EmotiGameMasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotiGameMasterView.swift; sourceTree = "<group>"; };
+		11A241FF2491B75500D66341 /* GameInstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInstructionsView.swift; sourceTree = "<group>"; };
+		11A242012491D03000D66341 /* Animatable+FlyAndFade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animatable+FlyAndFade.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +141,18 @@
 		1163B8BF24816FD4006A4278 /* emotionGameLog */ = {
 			isa = PBXGroup;
 			children = (
+				11A241F32490516A00D66341 /* Sounds */,
 				1163B8C024816FD4006A4278 /* AppDelegate.swift */,
 				1163B8C224816FD4006A4278 /* SceneDelegate.swift */,
-				1163B8C724816FD4006A4278 /* ContentView.swift */,
+				1163B8FB2481737E006A4278 /* EmotionLog.swift */,
+				1163B90724818102006A4278 /* EmotionGameLog.swift */,
+				11A241FA2490AF9E00D66341 /* View Sequence */,
+				11A242032491DFC300D66341 /* EmotiGame Files */,
+				11A241A3248DBCE800D66341 /* PopShape.swift */,
+				11A242012491D03000D66341 /* Animatable+FlyAndFade.swift */,
+				11A241A5248DCF7000D66341 /* View+SummaryElementModifier.swift */,
+				1163B8FF2481743F006A4278 /* Grid.swift */,
+				1163B9012481749C006A4278 /* GridLayout.swift */,
 				1163B8C924816FD7006A4278 /* Assets.xcassets */,
 				1163B8CE24816FD7006A4278 /* LaunchScreen.storyboard */,
 				1163B8D124816FD7006A4278 /* Info.plist */,
@@ -137,6 +186,41 @@
 				1163B8E724816FD8006A4278 /* Info.plist */,
 			);
 			path = emotionGameLogUITests;
+			sourceTree = "<group>";
+		};
+		11A241F32490516A00D66341 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				11A241F4249052C300D66341 /* Bubble_AudioCut.mp3 */,
+				11A241F62490545400D66341 /* Bell_AudioCut.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		11A241FA2490AF9E00D66341 /* View Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				1163B8C724816FD4006A4278 /* EmotionGameLogView.swift */,
+				1163B90B2482193D006A4278 /* PreferencesEditor.swift */,
+				1163B8F324817153006A4278 /* DayRateView.swift */,
+				1163B8F524817172006A4278 /* GratitudeLoggerView.swift */,
+				1163B8F72481719A006A4278 /* GratitudeSummarizeView.swift */,
+				1163B90F24822386006A4278 /* ChartRateView.swift */,
+				11A241A1248DBA3700D66341 /* SummaryView.swift */,
+				11A241F82490A0D800D66341 /* EndCycleView.swift */,
+			);
+			path = "View Sequence";
+			sourceTree = "<group>";
+		};
+		11A242032491DFC300D66341 /* EmotiGame Files */ = {
+			isa = PBXGroup;
+			children = (
+				11A241FB2490B1E500D66341 /* EmotiGameMasterView.swift */,
+				11A241FF2491B75500D66341 /* GameInstructionsView.swift */,
+				11A241F12490405F00D66341 /* EmotiGameSceneView.swift */,
+				11A241EF2490402E00D66341 /* EmotiGameScene.swift */,
+			);
+			path = "EmotiGame Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +329,8 @@
 			files = (
 				1163B8D024816FD7006A4278 /* LaunchScreen.storyboard in Resources */,
 				1163B8CD24816FD7006A4278 /* Preview Assets.xcassets in Resources */,
+				11A241F5249052C300D66341 /* Bubble_AudioCut.mp3 in Resources */,
+				11A241F72490545400D66341 /* Bell_AudioCut.mp3 in Resources */,
 				1163B8CA24816FD7006A4278 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +356,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1163B8F424817153006A4278 /* DayRateView.swift in Sources */,
+				11A242022491D03000D66341 /* Animatable+FlyAndFade.swift in Sources */,
+				11A241A4248DBCE800D66341 /* PopShape.swift in Sources */,
+				1163B8F82481719A006A4278 /* GratitudeSummarizeView.swift in Sources */,
+				11A241F22490405F00D66341 /* EmotiGameSceneView.swift in Sources */,
+				1163B90824818102006A4278 /* EmotionGameLog.swift in Sources */,
+				1163B9022481749C006A4278 /* GridLayout.swift in Sources */,
 				1163B8C124816FD4006A4278 /* AppDelegate.swift in Sources */,
+				1163B9002481743F006A4278 /* Grid.swift in Sources */,
+				11A241A6248DCF7000D66341 /* View+SummaryElementModifier.swift in Sources */,
+				11A242002491B75500D66341 /* GameInstructionsView.swift in Sources */,
+				1163B91024822386006A4278 /* ChartRateView.swift in Sources */,
+				11A241FC2490B1E500D66341 /* EmotiGameMasterView.swift in Sources */,
+				1163B8F624817172006A4278 /* GratitudeLoggerView.swift in Sources */,
 				1163B8C324816FD4006A4278 /* SceneDelegate.swift in Sources */,
-				1163B8C824816FD4006A4278 /* ContentView.swift in Sources */,
+				11A241A2248DBA3700D66341 /* SummaryView.swift in Sources */,
+				1163B8C824816FD4006A4278 /* EmotionGameLogView.swift in Sources */,
+				1163B8FC2481737E006A4278 /* EmotionLog.swift in Sources */,
+				11A241F92490A0D800D66341 /* EndCycleView.swift in Sources */,
 				1163B8C624816FD4006A4278 /* emotionGameLog.xcdatamodeld in Sources */,
+				11A241F02490402E00D66341 /* EmotiGameScene.swift in Sources */,
+				1163B90C2482193D006A4278 /* PreferencesEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

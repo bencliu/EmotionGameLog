@@ -1,0 +1,73 @@
+user:bencliu (Liu, Benjamin)
+
+
+Testing the App:
+
+To begin, there should be two sound files and an image already loaded into the project titled Cartoon-Cloud-Fit, Bell_AudioCut, and Bubble_AudioCut. The app is fairly intuitive to use. Since this is your first time, you will be prompted to first enter your information. After this is completed, exit from the preferences editor and begin your first EmotiCycle.
+
+From here, things are relatively straightforward. Tell the app how you’re doing, first. Next, enter a point of gratitude and your favorite moment from the day. After this, you will be taken to two pages that remind you of past gratitude point loggings and a colorful visualizer of your mood in the last 30 days. 
+
+Next, you’ll be taken to the most exciting feature of the app, the game! On this page, you should first read the instructions. After this, you can begin an emotiGame session and visualize your emotions in real-time through the colors and the various projectiles that you have to catch. Depending on whether you win or lose, you can exit the game and return the gameView page. From here, you can either continue playing more rounds of the game or go to the next view.
+
+After the game, you are taken to a nice summary view that documents some of your best moments on the app. Finally you’re taken to an end-cycle page with a beautiful star animation where you can either exit the app or go back to the home page. You’ll find that user notifications are scheduled whenever you toggle the option in the preferences editor and you are not allowed to use the app until 24 hours have passed. The app is fairly simple to use, I hope you enjoy it!
+
+
+
+
+Required APIs:
+
+@ObservedObject: Used in EmotiGameMasterView (@EnvironmentObject was used for all other views, as it was more appropriate)
+
+@EnvironmentObject: Used in almost all view sequences as they all communicate with the ViewModel EmotionGameLog
+
+@State: Used extensively throughout the project in almost every file
+
+@Binding: Used extensively throughout the project in almost every file
+
+@Environment: Used throughout the view sequence to change view colors according to the light scheme of the device (light or dark mode)
+
+@Published: Used in EmotiGameScene, EmotionGameLog
+
+Numerous Controls: Used a date picker, slider, toggle in preferences editor. Used numerous buttons throughout the view sequence
+
+TextField: Used in PreferencesEditor, GratitudeLoggerView to collect user preference information and gratitude/moment points
+
+Image: Used in the EndCycleView to create a nice background
+
+GeometryReader: Used vastly throughout the project to size the views dynamically rather than statically. Good use of geometry reader is seen in the SummaryView which uses GR to size the shazam views according to the screen size.
+
+NavigationView: Used in every view sequence component, allowing the user to go to a new view.
+
+Form or List: Form is used in the preferences editor to organize sections to edit user preferences.
+
+Gesture: In addition to onTapGesture, DragGesture and Double Tap Gestures are implemented in the EmotiGameScene as part of spritekit.
+
+Custom ViewModifier: Created a custom view modifier to incorporate the custom shape into a “Shazam View.” The “Shazam Views” are displayed side-by-side in the summary view to crystallize the user’s emotions and top moments in the app.
+
+Custom Shape: Constructed a PopShape (star-like quad shape). A custom view created by overlaying two popshapes is used in the SummaryView.
+
+Animatable View Modifier: Featured in Animatable+FlyAndFade File,, animatable modifier that makes star emojis fly in from random directions while fading into the scene. Modifier is used in EndCycleView
+
+Implicit Animation: Used primarily in the summaryView file to present the "Shazam Views"
+
+Explicit Animation: Used in all view sequences so that each view in the sequence appears smoothly. Is used to transition smoothly in the game as well.
+
+Sheet, Popover, Alert: Alerts used on numerous occasions in PreferenceEditor. Sheets and Popovers are displayed to edit user preferences and display game instructions
+
+User Defaults: Used in EmotionGameLog to store logged user information, including user preferences and logged emotions, points of gratitude, favorite moments, etc.
+
+Publisher: Used when calling objectwillChange.send() in EmotiGameScene and EmotionGameLog
+
+
+
+
+
+Choice APIs:
+
+Sound Effects: Used to signal point scoring and helper enlisting in the EmotiGame. Specifically sounds of sparkling and bubbling are used to enhance user experience. Note: Were not heard in the demo due to audio issues
+
+SpriteKit Graphics Library: Makes up the core of the EmotiGame visualizer. Utilizes extensive SKPhysics and SkNode interactions to build an enjoyable game for users to visualize their emotions.
+
+Schedules Local Notifications: (EmotionGameLog) => Option in Preferences Editor for users to schedule daily local notifications
+
+Date API Integration: Used to limit app usage to once per day and in scheduling notifications.
